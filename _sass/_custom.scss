@@ -2,7 +2,7 @@
 $assets_url: "http://sharden.github.io/thedreamcanvas/assets";
 
 #background-image{
-    background-image: url(#{$assets_url}/header-image.jpg);
+    background-image: url('/assets/header-image.jpg');
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
