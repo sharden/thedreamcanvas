@@ -47,7 +47,7 @@
 .btn-circle {
   width: 70px;
   height: 70px;
-  margin-top: 15px;
+  margin: 15px;
   padding: 7px 16px;
   border: 2px solid #fff;
   border-radius: 35px;
@@ -182,10 +182,36 @@ header .intro-text .intro-heading {
     width: 150px;
 }
 
+ 
+.nav-stacked > li > a {
+  border-radius: $nav-pills-border-radius;
+}
 
+.navbar-toggle {
+background-color: #fff;
+}
+
+#header-words{
+  $height: 150px;
+  height: $height;
+
+  @media (min-width: 320px){
+    height: $height * .9;
+  }
+  @media (min-width: 768px){
+    height: $height * 1.25;
+  }
+  @media (min-width: 1024px){
+    height: $height * 1.5;
+  }
+  @media (min-width: 1600px){
+    height: $height * 2;
+  }
+}
 
 .page-header{
     padding-top: 100px;
+    border: none;
 }
 
 
