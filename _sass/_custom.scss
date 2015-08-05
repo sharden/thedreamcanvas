@@ -35,8 +35,24 @@
 }
 
 .fa-color{
-    color: #5CC1AF
+    color: #5CC1AF;
 }
+
+
+.icon-size {
+  width: 128px;
+  height: 128px;
+}
+
+.gov-icon{
+ background-image: url('../assets/gov-icon.svg');
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+}
+
 
 
 .banner-title {
@@ -183,7 +199,7 @@ header .intro-text .intro-heading {
 }
 
 #navbar-logo{
-    width: 150px;
+    width: 300px;
 }
 
  
