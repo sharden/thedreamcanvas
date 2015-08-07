@@ -15,12 +15,12 @@ Parse.Cloud.define("sendEmail", function(request, response) {
      to: "hello@thedreamcanvas.co",
      from: email,
      fromname: fname+" "+lname,
-     subject: "Message from DreamCanvas Website",
+     subject: "Message from DreamCanvas Contact Form",
      text: "Name: "+fname+" "+lname+"\nCompany: "+company+"\nEmail: "+email+"\n\nMessage:\n"+message
      }, {
        success: function(httpResponse) {
          console.log(httpResponse);
-         response.success("Thanks for contacting DreamCanvas Solutions!");
+         response.success("Thanks for contacting DreamCanvas Solutions LLC!");
       },
        error: function(httpResponse) {
          console.error(httpResponse);
