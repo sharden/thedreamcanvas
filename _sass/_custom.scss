@@ -199,7 +199,14 @@ header .intro-text .intro-heading {
 }
 
 #navbar-logo{
-    width: 300px;
+    $width: 300px;
+    width: $width;
+    @media (min-width: 320px){
+     width: $width * .9;
+    }
+    @media (min-width: 1024px){
+     width: $width * 1;
+    }
 }
 
  
@@ -295,4 +302,8 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+#TripleConstraintModel{
+  width: 450px;
 }
