@@ -307,3 +307,22 @@ section h3.section-subheading {
 #TripleConstraintModel{
   width: 450px;
 }
+
+
+// Modal Styles
+.close{
+  color: #fff;
+  opacity: inherit;
+}
+.modal-header{
+  background-color: #110C0C;
+  border: none;
+}
+.modal-footer{
+  background-color: #110C0C;
+  border: none;
+  text-align: center;
+}
+#thankyou-modal{
+  width: 450px;
+}

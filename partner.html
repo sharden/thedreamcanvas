@@ -4,41 +4,60 @@ title: Partner
 permalink: /partner/
 ---
 <div class="page-header">
-        <div class="container">
-        	<div>
-            	<p class='editorial text-center'>
-	             Partner with us to help make the dream tangible for others.
-	            </p>
-	       
+    <div class="container">
+    	<div>
+        	<p class='editorial text-center'>
+           Partner with us to help make the dream tangible for others.
+          </p>
+     
 
-            <div>
-            	<div class="col-md-6">
-            		<div class="editorial-note content-highlight">
-            	 	Partner if you...
-		             <ul>
-		             	<li>have a skill set or service that would be useful to someone creating a product or service.</li>
-		             	<li>want a more effective method of client acquisition.</li>
-		             	<li>have trouble communicating with clients.</li>
-		             </ul>
-		         	</div>
-	            	 <div class="editorial-note content-highlight">
-	            	   Benefit from...
-	            	   <ul>
-	            	   	<li>Legitimate Client Referrals</li>
-	            	   	<li>Improved Work Efficiency</li>
-	            	   	<li>Increased Profit Margins</li>
-	            	   	<li>Possible Investment Opportunities</li>
-	            	   </ul>
-	            	 </div>
-	            </div>
-	            <div class="col-md-6">
-	            	<form id="myForm">
-        			    {% include contact-form.html %}
-        			    <div class="form-group">
-		            		<input type="submit" class="btn btn-default btn-xl"value="SEND">
-	        		    </div>
-	        	    </form>
-	            </div>
-            </div>
+        <div>
+        	<div class="col-md-6">
+        		<div class="editorial-note content-highlight">
+        	 	Partner if you...
+             <ul>
+             	<li>have a skill set or service that would be useful to someone creating a product or service.</li>
+             	<li>want a more effective method of client acquisition.</li>
+             	<li>have trouble communicating with clients.</li>
+             </ul>
+         	</div>
+          	 <div class="editorial-note content-highlight">
+          	   Benefit from...
+          	   <ul>
+          	   	<li>Legitimate Client Referrals</li>
+          	   	<li>Improved Work Efficiency</li>
+          	   	<li>Increased Profit Margins</li>
+          	   	<li>Possible Investment Opportunities</li>
+          	   </ul>
+          	 </div>
+          </div>
+          <div class="col-md-6">
+          	<form id="partnerForm">
+    			    {% include contact-form.html %}
+            	<div class="form-group">
+            		<input name="tag" type="text" class="form-control" id="tag" value="PARTNER" style="display: none;">
+            	</div>
+    			    <div class="form-group">
+            		<input type="submit" class="btn btn-default btn-xl"value="SEND">
+      		    </div>
+      	    </form>
+          </div>
         </div>
     </div>
+</div>
+    
+<div id="modal-success" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content text-center">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="CLOSE"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title"> </h4>
+        <img src="{{ site.baseurl }}/assets/thankyou-modal.svg" id="thankyou-modal">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">CLOSE</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+

@@ -10,14 +10,16 @@ Parse.Cloud.define("sendEmail", function(request, response) {
     var email = request.params.email;
     var company = request.params.company;
     var message = request.params.message;
+    var tag = request.params.tag;
+    var env = request.params.env;
  
     sendgrid.sendEmail({
      to: "hello@thedreamcanvas.co",
      from: email,
      fromname: fname+" "+lname,
      subject: "Message from DreamCanvas Contact Form",
-     text: "Name: "+fname+" "+lname+"\nCompany: "+company+"\nEmail: "+email+"\n\nMessage:\n"+message
-     }, {
+     text: "Tag: "+tag+"\nName: "+fname+" "+lname+"\nCompany: "+company+"\nEmail: "+email+"\n\nMessage:\n"+message+"\n\nEnvironment: "+env}, 
+     {
        success: function(httpResponse) {
          console.log(httpResponse);
          response.success("Thanks for contacting DreamCanvas Solutions LLC!");
