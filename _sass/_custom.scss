@@ -202,7 +202,7 @@ header .intro-text .intro-heading {
     $width: 300px;
     width: $width;
     @media (min-width: 320px){
-     width: $width * .9;
+     width: $width * .75;
     }
     @media (min-width: 1024px){
      width: $width * 1;
@@ -226,7 +226,7 @@ background-color: #fff;
     height: $height * .9;
   }
   @media (min-width: 768px){
-    height: $height * 1.25;
+    height: $height * 1.1;
   }
   @media (min-width: 1024px){
     height: $height * 1.5;
