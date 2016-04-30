@@ -110,7 +110,7 @@
     margin: 0 auto 2em;
     max-width: 34em;
     font-size: 1.0em;
-    opacity: .8;  
+    opacity: .8;
 }
 
 .editorial-quote{
@@ -209,7 +209,7 @@ header .intro-text .intro-heading {
     }
 }
 
- 
+
 .nav-stacked > li > a {
   border-radius: $nav-pills-border-radius;
 }
@@ -295,7 +295,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 100px 0;
     }
 }
 
@@ -306,7 +306,10 @@ section h3.section-subheading {
 
 #TripleConstraintModel{
   width: 450px;
+  margin: 20px 0px;
 }
+
+
 
 
 // Modal Styles
@@ -325,4 +328,8 @@ section h3.section-subheading {
 }
 #thankyou-modal{
   width: 450px;
+}
+.hideme
+{
+    opacity:0;
 }
