@@ -20,4 +20,19 @@ $(document).ready(function() {
 
     });
 
+    (function($) {
+        var $window = $(window),
+            $html = $('div');
+
+        function resize() {
+            if ($window.width() < 514) {
+                $html.removeClass('hideme');
+            }
+        }
+        $window
+            .resize(resize)
+            .trigger('resize');
+    })(jQuery);
+
+
 });
