@@ -3,20 +3,21 @@
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <button type="button" class="navbar-toggle" aria-expanded="false" data-toggle="collapse" data-target="#collapse-menu">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand page-scroll" href="{{ site.baseurl }}/">
-            	<img src="{{ site.baseurl }}/assets/navbar-logo.png" id="navbar-logo"alt="Brand">
+            	<img src="{{ site.baseurl }}/assets/navbar-logo.svg" id="navbar-logo"alt="Brand">
             </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav nav-pills navbar-nav navbar-right">
+        <div class="navbar-collapse collapse" id="collapse-menu">
+    
+            <ul class="nav nav-stacked navbar-nav navbar-right">
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
@@ -30,10 +31,16 @@
                     <a class="page-link" href="{{ site.baseurl }}/services/">Services</a>
                 </li>
                 <li>
+                    <a class="page-link hidden" href="{{ site.baseurl }}/payment/">Payment</a>
+                </li>
+                <li>
                     <a class="page-link" href="{{ site.baseurl }}/partner/">Partner</a>
                 </li>
                 <li>
                     <a class="page-link" href="{{ site.baseurl }}/contact/">Contact</a>
+                </li>
+                <li>
+                    <a class="page-link" href="https://twitter.com/TheDreamCanvas"><i class="fa fa-twitter fa-lg"></i></a>
                 </li>
             </ul>
         </div>

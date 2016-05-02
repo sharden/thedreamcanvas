@@ -1,6 +1,3 @@
-
-
-
 #background-image{
     background-image: url('../assets/header-image.JPG');
     height: 100%;
@@ -35,8 +32,24 @@
 }
 
 .fa-color{
-    color: #5CC1AF
+    color: #5CC1AF;
 }
+
+
+.icon-size {
+  width: 128px;
+  height: 128px;
+}
+
+.gov-icon{
+ background-image: url('../assets/gov-icon.svg');
+ background-size: cover;
+ display: block;
+ border-radius: 100px;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+}
+
 
 
 .banner-title {
@@ -47,7 +60,7 @@
 .btn-circle {
   width: 70px;
   height: 70px;
-  margin-top: 15px;
+  margin: 15px;
   padding: 7px 16px;
   border: 2px solid #fff;
   border-radius: 35px;
@@ -94,7 +107,7 @@
     margin: 0 auto 2em;
     max-width: 34em;
     font-size: 1.0em;
-    opacity: .8;  
+    opacity: .8;
 }
 
 .editorial-quote{
@@ -163,6 +176,10 @@ header .intro-text .intro-heading {
     }
 }
 
+.important{
+  color: red;
+  max-width: 40em !important;
+}
 #leadership{
     max-height: 400px;
 }
@@ -179,13 +196,46 @@ header .intro-text .intro-heading {
 }
 
 #navbar-logo{
-    width: 150px;
+    $width: 300px;
+    width: $width;
+    @media (min-width: 320px){
+     width: $width * .75;
+    }
+    @media (min-width: 1024px){
+     width: $width * 1;
+    }
 }
 
 
+.nav-stacked > li > a {
+  border-radius: $nav-pills-border-radius;
+}
+
+.navbar-toggle {
+background-color: #fff;
+}
+
+#header-words{
+  $height: 150px;
+  height: $height;
+
+  @media (min-width: 320px){
+    height: $height * .9;
+  }
+  @media (min-width: 768px){
+    height: $height * 1.1;
+  }
+  @media (min-width: 1024px){
+    height: $height * 1.5;
+  }
+  @media (min-width: 1600px){
+    height: $height * 2;
+  }
+}
 
 .page-header{
     padding-top: 100px;
+    border: none;
 }
 
 
@@ -249,4 +299,34 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+#TripleConstraintModel{
+  width: 450px;
+  margin: 20px 0px;
+}
+
+
+
+
+// Modal Styles
+.close{
+  color: #fff;
+  opacity: inherit;
+}
+.modal-header{
+  background-color: #110C0C;
+  border: none;
+}
+.modal-footer{
+  background-color: #110C0C;
+  border: none;
+  text-align: center;
+}
+#thankyou-modal{
+  width: 450px;
+}
+.hideme
+{
+    opacity:0;
 }

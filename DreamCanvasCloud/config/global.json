@@ -1,0 +1,14 @@
+{
+  "global": {
+    "parseVersion": "1.5.0"
+  },
+  "applications": {
+    "TheDreamCanvas": {
+      "applicationId": "WZaCRnqJAEjk2tV3zwlvmvZJo2xsp7NXtza9p7ad",
+      "masterKey": "wwqlQzITEvDYM39ZgKo4tiXEeSCzr6nF20PUDK1v"
+    },
+    "_default": {
+      "link": "TheDreamCanvas"
+    }
+  }
+}

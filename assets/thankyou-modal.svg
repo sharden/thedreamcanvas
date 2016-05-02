@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="506px" height="554px" viewBox="0 0 506 554" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12002) - http://www.bohemiancoding.com/sketch -->
+    <title>thankyou-modal copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="thankyou-modal-copy" sketch:type="MSLayerGroup" transform="translate(0.000000, 0.413093)">
+            <rect id="Rectangle-4" fill="#110C0C" sketch:type="MSShapeGroup" x="0" y="0" width="506" height="553" rx="8"></rect>
+            <g id="Oval-7-Copy-+-Oval-7-+-Oval-2-Copy" transform="translate(123.930940, 26.395540)" sketch:type="MSShapeGroup">
+                <path d="M129.06906,258.20892 C200.351934,258.20892 258.138121,200.406885 258.138121,129.10446 C258.138121,57.8020357 200.351934,0 129.06906,0 C57.7861867,0 0,57.8020357 0,129.10446 C0,200.406885 57.7861867,258.20892 129.06906,258.20892 Z" id="Oval-7-Copy" fill="#5CC1AF"></path>
+                <ellipse id="Oval-7" fill="#FEFDFF" cx="119.203909" cy="117.59196" rx="114.271334" ry="114.302675"></ellipse>
+                <path d="M114.271334,15.1070151 C124.136485,-17.9399442 59.1909067,130.584539 59.1909067,161.780065 C59.1909067,192.975592 83.8512539,218.264562 114.271334,218.264562 C144.691414,218.264562 169.351761,192.975592 169.351761,161.780065 C169.351761,130.584539 104.406183,48.1539744 114.271334,15.1070151 L114.271334,15.1070151 Z" id="Oval-2" fill="#3949AB"></path>
+            </g>
+            <text id="DreamCanvas" sketch:type="MSTextLayer" font-family="Century Schoolbook" font-size="63" font-weight="bold" sketch:alignment="middle" fill="#5CC1AF">
+                <tspan x="23.6945801" y="368">DreamCanvas</tspan>
+            </text>
+            <text id="Thanks-for-contactin" sketch:type="MSTextLayer" font-family="Arial Black" font-size="18" font-weight="686" sketch:alignment="middle" fill="#FEFDFF">
+                <tspan x="26.4785156" y="430.586907">Thanks for contacting DreamCanvas Solutions!</tspan>
+                <tspan x="21.46875" y="471.586907">If you don't hear from us in 24hrs, give us a call.</tspan>
+                <tspan x="107.48291" y="512.586907">Lets make the dream tangible.</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
