@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  
+
     /* Every time the window is scrolled ... */
     $(window).scroll( function(){
 
@@ -25,7 +25,7 @@ $(document).ready(function() {
             $html = $('div');
 
         function resize() {
-            if ($window.width() < 514) {
+            if ($window.width() < 992) {
                 $html.removeClass('hideme');
             }
         }
