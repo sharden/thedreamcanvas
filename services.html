@@ -12,24 +12,20 @@ permalink: /services/
     </div>
 
     {% include services.html %}
-    <div class= "text-center">
+    <div class= "col-md-7">
         <h3 class ="section-heading"> Cost Structure </h3>
         <p class="editorial">
          Cost for services vary but are dependent on one essential concept; the "Triple Constraint Model". In the TCM, scope, time, and cost are constraints that form the sides of the triangle, while quality of your product is the central theme.
        </p>
-
-       <img src="{{ site.baseurl }}/assets/TripleConstraintModel.png" id="TripleConstraintModel">
-
        <p class="editorial">
          The three constraints are interdependent: Modifying one constraint will affect one or both of the others.
          <strong>For example</strong>, if the scope of a project is increased, it is likely to take longer and/or cost more. Likewise, an earlier deadline is almost certain to either require more money or a less ambitious scope. Every project is different so communication and focus are key. It saves everyone time and money, all of which any growing organization needs.
         </p>
     </div>
+    <div class= "col-md-5">
+       <img src="{{ site.baseurl }}/assets/TripleConstraintModel.png" id="TripleConstraintModel">
+    </div>
 
-
-
-
-    {% include audience.html %}
-    {% include usertype.html %}
   </div>
 </div>
+{% include usertype.html %}
