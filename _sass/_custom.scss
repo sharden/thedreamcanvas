@@ -1,3 +1,17 @@
+.tab-content{
+  padding: 40px;
+}
+.fade {
+opacity: 0;
+-webkit-transition: opacity 2.25s linear;
+  -moz-transition: opacity 2.25s linear;
+   -ms-transition: opacity 2.25s linear;
+	-o-transition: opacity 2.25s linear;
+	   transition: opacity 2.25s linear;
+}
+#contact-details{
+  padding: 5px;
+}
 #background-image{
     background-image: url('../assets/header-image.JPG');
     height: 100%;
@@ -238,32 +252,6 @@ background-color: #fff;
     border: none;
 }
 
-
-// Pills
-// -------------------------
-.nav-pills {
-  > li {
-    float: left;
-
-    // Links rendered as pills
-    > a {
-      border-radius: $nav-pills-border-radius;
-    }
-    + li {
-      margin-left: 2px;
-    }
-
-    // Active state
-    &.active > a {
-      &,
-      &:hover,
-      &:focus {
-        color: $navbar-default-link-hover-color;
-        background-color: $navbar-default-link-hover-bg;
-      }
-    }
-  }
-}
 .section-divide{
     border-bottom: solid 1px #eeeeee;
     padding: 10px;
@@ -304,6 +292,15 @@ section h3.section-subheading {
 #TripleConstraintModel{
   width: 450px;
   margin: 20px 0px;
+}
+
+#contact-options {
+    margin-left: 0px !important;
+}
+
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  background-color: #5CC1AF;
 }
 
 

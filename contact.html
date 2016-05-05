@@ -4,35 +4,36 @@ title: Contact
 permalink: /contact/
 ---
 <div class="page-header">
-    <div class="container">
-    	<div>
-        	<p class='editorial text-center'>
-             Contact us for help with your idea or request web and mobile technology services for your project.
-            </p>
+  <div class="container">
+    	<!-- Here we will put the content area of a tabbed section-->
 
-
-        <div>
-        	<div class="col-md-4 col-md-offset-4">
-        		<form id="contactForm">
-        			{% include contact-form.html %}
-            	<div class="form-group">
-            		<input name="tag" type="text" class="form-control" id="tag" value="CONTACT" style="display: none;">
-                <input type="text" name="env" id="userAgent" style="display: none;">
-            	</div>
-        			<div class="form-group text-center">
-		            		<input type="submit" class="btn btn-default btn-xl"value="SEND">
-	        		</div>
-	        	</form>
-            </div>
+    <div id="contact-details" class="col-md-6 col-md-offset-3">
+      <div class="row">
+        <ul id="contact-options" class="nav nav-pills nav-justified">
+          <li role="presentation" class="active"><a href="#tab_client" data-toggle="pill">Client</a></li>
+          <li role="presentation"><a href="#tab_partner" data-toggle="pill">Partner</a></li>
+        </ul>
+      </div>
+      <div class="tab-content">
+        <div class="tab-pane fade in active" id="tab_client">
+            {% include client-details.html %}
         </div>
-        <section>
-        <div class="col-md-12 page-header text-center">
+        <div class="tab-pane" id="tab_partner">
+            {% include partner-details.html %}
+        </div>
+      </div><!-- tab content -->
+    </div>
+
+
+      <section>
+        <div class="col-md-12 text-center">
             <div class="col-md-4">
                 <span class="fa-stack fa-2x">
                     <i class="fa fa-circle fa-stack-2x fa-color"></i>
                     <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
                 </span>
-                <p class="text-muted">hello@thedreamcanvas.co</p>
+                <p class="text-muted"><a href="mailto:hello@thedreamcanvas.co" target="_top">hello@thedreamcanvas.co</a></p>
+
             </div>
 
             <div class="col-md-4">
@@ -50,7 +51,7 @@ permalink: /contact/
                 <p class="text-muted">919-378-1413</p>
             </div>
         </div>
-        </section>
+      </section>
     </div>
 </div>
 
