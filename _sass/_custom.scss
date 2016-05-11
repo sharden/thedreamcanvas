@@ -259,6 +259,7 @@ background-color: #fff;
 
 section {
     padding: 100px 0;
+
 }
 
 
@@ -284,6 +285,9 @@ section h3.section-subheading {
     }
 }
 
+.section-heading{
+  padding: 20px 0px;
+}
 .service-heading {
     margin: 15px 0;
     text-transform: none;
@@ -292,6 +296,7 @@ section h3.section-subheading {
 #TripleConstraintModel{
   width: 450px;
   margin: 20px 0px;
+  padding-top: 60px;
 }
 
 #contact-options {
@@ -326,4 +331,10 @@ section h3.section-subheading {
 .hideme
 {
     opacity:0;
+}
+
+.paper-section{
+  //border: solid 1px #eeeeee;
+  box-shadow: 2px 2px 7px #888888;
+  //padding: 30px;
 }
