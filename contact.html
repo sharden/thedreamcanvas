@@ -9,7 +9,7 @@ permalink: /contact/
 
     <div id="contact-details" class="col-md-6 col-md-offset-3">
       <div class="row">
-        <ul id="contact-options" class="nav nav-pills nav-justified">
+        <ul id="contact-options" class="nav nav-tabs nav-justified">
           <li role="presentation" class="active"><a href="#tab_client" data-toggle="pill">Client</a></li>
           <li role="presentation"><a href="#tab_partner" data-toggle="pill">Partner</a></li>
         </ul>
@@ -17,6 +17,15 @@ permalink: /contact/
       <div class="tab-content">
         <div class="tab-pane fade in active" id="tab_client">
             {% include client-details.html %}
+          <form id="contactForm">
+            {% include contact-form.html %}
+            <div class="form-group">
+              <input name="tag" type="text" class="form-control" id="tag" value="CONTACT" style="display: none;">
+            </div>
+            <div class="form-group text-center">
+              <input type="submit" class="btn btn-default btn-xl"value="SEND">
+            </div>
+          </form>
         </div>
         <div class="tab-pane" id="tab_partner">
             {% include partner-details.html %}
