@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   We help you convert ideas into software products and services. DreamCanvas Solutions is a resource for entreprenuers, businesses, and organizations to create software products. You can think of us as your web technology partners. Outsource specific service areas you need or our entire service suite to create the product you need.
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.thedreamcanvas.co" # the base hostname & protocol for your site
+url:  # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 sass:
